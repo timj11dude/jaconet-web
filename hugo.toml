@@ -1,0 +1,4 @@
+baseURL = 'https://jaconet.uk/'
+languageCode = 'en-gb'
+title = 'JacoNet'
+theme = 'ananke'
