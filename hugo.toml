@@ -1,7 +1,18 @@
 baseURL = 'https://tim.jaconet.uk/'
 languageCode = 'en-gb'
 title = 'JacoNet'
-theme = 'ananke'
+theme = 'hermit-v2'
 [caches]
  [caches.images]
   dir = ':cacheDir/images'
+
+[params]
+ [[params.socialLinks]]
+  name = "github"
+  url = "https://github.com/timj11dude"
+
+[menu]
+ [[menu.main]]
+  name = "Posts"
+  url = "posts/"
+  weight = 10
