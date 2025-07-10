@@ -1,15 +1,28 @@
 baseURL = 'https://tim.jaconet.uk/'
 languageCode = 'en-gb'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 title = 'JacoNet'
 theme = 'hermit-v2'
+enableRobotsTXT = true
+
 [caches]
  [caches.images]
   dir = ':cacheDir/images'
+
+[params.author]
+ name = "Tim Jacobson"
 
 [params]
  [[params.socialLinks]]
   name = "github"
   url = "https://github.com/timj11dude"
+ [[params.socialLinks]]
+  name = "hackerrank"
+  url = "https://www.hackerrank.com/profile/timj91"
+ [[params.socialLinks]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/tim-jacobson-b74b602b/"
 
 [menu]
  [[menu.main]]
